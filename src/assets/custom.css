@@ -1,0 +1,58 @@
+.p-dropdown .p-inputtext {
+  border: 0 none;
+  height: 2.5rem;
+  width: 8rem;
+  padding: 8px;
+}
+
+.p-checkbox .p-checkbox-box.p-highlight .p-checkbox-icon.pi-check:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 1px;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-animation: checkbox-check 125ms 50ms linear forwards;
+  animation: checkbox-check 125ms 50ms linear forwards;
+}
+
+.p-checkbox .p-checkbox-box {
+  top: -2px;
+  border-color: #757575;
+  border-radius: 2px;
+  position: relative;
+}
+
+.p-dropdown-panel {
+  width: 10rem !important;
+  right: 38px !important;
+  left: unset !important;
+}
+
+.sidenav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 18px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
